@@ -9,7 +9,7 @@ export default function BurgerMenu() {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
-        <>
+        <div className='fixe'>
             <div className="button-menu" onClick={toggleMenu}></div>
             <nav className={`burger-menu ${isOpen ? 'visible' : 'hidden'}`}>
                 <div className="button-close" onClick={toggleMenu}></div>
@@ -19,6 +19,6 @@ export default function BurgerMenu() {
                     <li className="bar">Contact</li>
                 </ul>
             </nav>
-        </>
+        </div>
     );
 }
