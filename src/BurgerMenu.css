@@ -1,0 +1,94 @@
+@import './index.css';
+
+@media screen and (max-width: 768px) {
+    .burger-menu.visible {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        background-image: url('../img/logo_nami_de_bretagne.svg');
+        background-position: center;
+        background-size: 370px 370px;
+        background-repeat: no-repeat;
+        background-color: var(--light_grey);
+        color: var(--white);
+        padding: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .burger-menu.hidden {
+        display: none;
+    }
+
+    .button-menu {
+        position: absolute;
+        top: 30px;
+        right: 15px;
+        width: 13vw;
+        height: 3vw;
+        background: linear-gradient(var(--yellow), var(--orange));
+    }
+
+    .button-menu::before {
+        content: ' ';
+        position: absolute;
+        top: -16px;
+        right: 0px;
+        width: 13vw;
+        height: 3vw;
+        border-radius: 250px 250px 0 0;
+        background: linear-gradient(var(--light_yellow), var(--yellow));
+    }
+
+    .button-menu::after {
+        content: ' ';
+        position: absolute;
+        top: 16px;
+        right: 0px;
+        width: 13vw;
+        height: 3vw;
+        border-radius: 0 0 250px 250px;
+        background-color: var(--orange);
+    }
+
+    .button-close {
+        position: absolute;
+        top: 33px;
+        right: 15px;
+        width: 13vw;
+        height: 1.5vw;
+        border-radius: 100px;
+        background-color: var(--white);
+        transform: rotate(45deg);
+    }
+    
+    .button-close::before {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 13vw;
+        height: 1.5vw;
+        border-radius: 100px;
+        background-color: var(--white);
+        transform: rotate(90deg);
+    }
+
+    .burger-menu-list {
+        list-style-type: none;
+    }
+
+    .bar {
+        font-size: 6vw;
+        margin: 7vw 0;
+        translate: .5s all ease-in-out;
+    }
+
+    .bar:hover {
+        cursor: pointer;
+        color: var(--light_yellow);
+        transform: scale(1.1);
+    }
+}

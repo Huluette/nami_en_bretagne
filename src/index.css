@@ -6,6 +6,16 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --green: #BFD8AF;
+  --dark_grey: #2C3639;
+  --light_grey: #3F4E4F;
+  --dark_brown: #3F2305;
+  --light_brown: #B99470;
+  --light_yellow: #FAEAB1;
+  --yellow: #FFCC17;
+  --orange: #FF8617;
+  --white: #fff;
+  --black: #000;
 }
 
 h1 {
