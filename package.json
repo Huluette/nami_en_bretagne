@@ -2,7 +2,7 @@
   "name": "nami_en_bretagne",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Huluette.github.io/Nami-En-Bretagne",
+  "homepage": "https://Huluette.github.io/nami_en_bretagne",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
