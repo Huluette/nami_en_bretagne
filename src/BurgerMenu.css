@@ -34,6 +34,7 @@
         width: 13vw;
         height: 3vw;
         background: linear-gradient(var(--yellow), var(--orange));
+        z-index: 999999;
     }
 
     .button-menu::before {

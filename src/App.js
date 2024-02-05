@@ -2,6 +2,7 @@ import './App.css';
 import BurgerMenu from './BurgerMenu';
 import Header from './Header';
 import Presentation from './Presentation';
+import Tarifs from './Tarifs';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <BurgerMenu />
       <Presentation/>
+      <Tarifs/>
     </main>
   );
 }
