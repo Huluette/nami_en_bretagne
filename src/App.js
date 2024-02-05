@@ -1,9 +1,9 @@
 import './App.css';
 import BurgerMenu from './BurgerMenu';
+import Footer from './Footer';
 import Header from './Header';
 import Presentation from './Presentation';
 import Tarifs from './Tarifs';
-
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <BurgerMenu />
       <Presentation/>
       <Tarifs/>
+      <Footer/>
     </main>
   );
 }
