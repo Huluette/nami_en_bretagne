@@ -2,8 +2,12 @@
 
 /** VERSION DESKTOP **/
 
+@media screen and (min-width: 1440px) {
+
 .fixe {
     display: none;
+}
+
 }
 
 /** VERSION TABLETTE **/
