@@ -1,6 +1,10 @@
 @import './index.css';
 
+/** VERSION DESKTOP **/
 
+.fixe {
+    display: none;
+}
 
 /** VERSION TABLETTE **/
 

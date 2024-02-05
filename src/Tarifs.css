@@ -1,5 +1,58 @@
 @import './index.css';
 
+/** VERSION DESKTOP **/
+
+.price {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/pexels-sơn-bờm-1765631.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    filter: drop-shadow(0px 7px 8px rgba(0, 0, 0, 0.5));
+}
+
+.price_container {
+    width: 65%;
+    height: auto;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 7vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px solid var(--white);
+    border-radius: 10px;
+    filter: drop-shadow(0px 7px 8px rgba(0, 0, 0, 0.5));
+}
+
+.title_price {
+       color: var(--white);
+       padding-top: 7vh;
+       text-align: center;
+       font-size: 2.5vw;
+       font-weight: 500;
+       text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.price_by_hour {
+    color: var(--white);
+    font-size: 2vw;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.price_description {
+    margin-top: 5vh;
+    color: var(--white);
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 /** VERSION TABLETTE **/
 
 @media screen and (max-width: 1440px) {

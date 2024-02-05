@@ -1,5 +1,83 @@
 @import './index.css';
 
+/** VERSION DESKTOP **/
+
+.presentation {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10vh;
+}
+
+.title_svg {
+   width: 100%;
+   height: 20vh;
+   margin-top: 5vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+} 
+
+.title_presentation {
+   color: var(--light_grey);
+   text-align: center;
+   font-size: 2.5vw;
+   font-weight: 500;
+   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.svg_flower {
+   width: 45vw;
+   height: 35vh;
+   position: absolute;
+   top: 630px;
+   right: 0px;
+   background-image: url(../img/logo_nami_de_bretagne_presentation.svg);
+   background-position: right;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.flex_presentation {
+   width: 100%;
+   height: auto;
+   margin-top: 10vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.picture_presentation {
+   width: 35%;
+   height: 55vh;
+   background-image: url(../img/photo\ nami.avif);
+   background-position: right;
+   background-size: 150%;
+   background-repeat: no-repeat;
+   border: 3px solid var(--dark_brown);
+   border-radius: 10px;
+   z-index: 999;
+}
+
+.text_container {
+   width: 45%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2vw 3vw;
+   background-color: var(--green);
+   border-radius: 10px;
+   filter: drop-shadow(0px 7px 8px rgba(0, 0, 0, 0.5));
+}
+
+.description_presentation {
+   color: var(--light_grey);
+   text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 /** VERSION TABLETTE **/
 
 @media screen and (max-width: 1440px) {
@@ -52,7 +130,6 @@
    .picture_presentation {
        width: 33%;
        height: 50vh;
-       left: 210px;
        background-image: url(../img/photo\ nami.avif);
        background-position: right;
        background-size: cover;
